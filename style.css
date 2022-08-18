@@ -1,0 +1,56 @@
+/* CSS Document */
+body {
+	background-color: #f4f4f4;
+	color: #555555;
+	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight:normal;
+	line-height: 1.6em;
+}
+/*
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+.box-1{
+	background-color: #333;
+	color: #fff;
+	border-width: 3px;
+	border-bottom-width: 10px;
+	border-top-style: dotted;
+	border: 5px red solid;
+	padding: 20px;
+	margin: 20px;
+	margin: 20px 0;
+}
+.box-1 h1 {
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+font-style: italic;
+text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+body {margin: 0;}
+.container{
+	width: 80%;
+	margin: auto;
+}
+/*
+.box-2{
+	border: 3px dotted #520F99;
+	padding: 20px;
+	margin: 20px 0;
+}
+.categories {
+	border: 1px #B50B0E solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+.categories h2 {
+	text-align: center;
+}
+.categories ul {
+	padding: 0;
+	list-style: none;
+}
