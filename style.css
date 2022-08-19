@@ -12,6 +12,9 @@ body {
 	padding: 0;
 }
 */
+.clr {
+	clear: both;
+}
 .box-1{
 	background-color: #333;
 	color: #fff;
@@ -28,22 +31,34 @@ font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L",
 font-style: italic;
 text-decoration: underline;
 	text-transform: uppercase;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.2em;  
 	word-spacing: 1em;
 }
 body {margin: 0;}
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: green;
+}
+a:visited {
+	color: yellow;
+}
 .container{
 	width: 80%;
 	margin: auto;
 }
-/*
-.box-2{
-	border: 3px dotted #520F99;
+.box-2 {
+	border: 3px dotted #A80508;
 	padding: 20px;
 	margin: 20px 0;
 }
 .categories {
-	border: 1px #B50B0E solid;
+	border: 1px #9E1215 solid;
 	padding: 10px;
 	border-radius: 15px;
 }
@@ -52,5 +67,42 @@ body {margin: 0;}
 }
 .categories ul {
 	padding: 0;
+	padding-left: 20px;
+	list-style: square;
 	list-style: none;
+}
+.categories li {
+	padding-botton: 6px;
+	border-bottom: dotted 1px #333;
+	list-style-image: url('images/check.png');
+}
+.my-form {
+	padding:20px;
+}
+.my-form .form-group{
+	padding-bottom:15px;
+}
+.my-form label{
+	display:block;
+}
+.my-form input[type="text"],my-form textarea{
+	padding:8px;
+	width: 100%;
+}
+.button{
+	backgroun-color: #333;
+		color: #320577;
+	padding: 10px 15px;
+	border: none;
+}
+.button:hover{
+	background:red;
+	color: #fff;
+}
+.block {
+	float: left;
+	width: 33.3%;
+	border: 1px solid #DD00BD;
+	padding: 10px;
+	box-sizing: border-box;
 }
